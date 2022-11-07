@@ -9,7 +9,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-flow', help='multi-driver control command, for internal and testing purpose')
     args = parser.parse_args()
-    os.system('export PATH=$PATH:/home/capitalturtle/Downloads') # os nie zadzialal
+    os.system('export PATH=$PATH:/home/user_home_dir/Downloads') # os nie zadzialal
 
     # team app1 app2
     menu = BotsMenu()
