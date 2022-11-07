@@ -9,12 +9,12 @@ from data.market_info import GetMarketInfo, DataManager
 
 class Profiles:
     DB_NAME = 'wallet.db'
-    UC_USER_DATA_DIR = '/home/capitalturtle/.config/google-chrome'
-    FF_USER_DATA_DIR = '/home/capitalturtle/.mozilla/firefox'
+    UC_USER_DATA_DIR = '/home/user_dir/.config/google-chrome'
+    FF_USER_DATA_DIR = '/home/user_dir/.mozilla/firefox'
     UC_PROFILES_NAME = [('Default', 'yellow')]
-    FF_PROFILES_NAME = [('rcp6e4r0.FireTurtleOne', 'red'),
-                        ('nk1th9ox.FireTurtleTwo', 'purple'),
-                        ('c0cfg8ue.FireTurtleThree', 'green')]
+    FF_PROFILES_NAME = [('ff_code.user_typed_name', 'red'),
+                        ('ff_code.user_typed_name', 'purple'),
+                        ('ff_code.user_typed_name', 'green')]
 
 
 class BotsMenu(Profiles):
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    os.system('export PATH=$PATH:/home/capitalturtle/Downloads')
+    os.system('export PATH=$PATH:/home/user_dir/Downloads')
 
     menu = BotsMenu()
 
