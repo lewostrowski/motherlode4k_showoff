@@ -3,4 +3,4 @@ This is the part of my Python bots app. This is my ongoing project aiming to imp
 
 It operates on sites related to cryptocurrency and tries to generate a small number of coins from clicking ads.
 
-Due to safety issiues, some part of the code need to remain private.
+Due to safety issues, some part of the code need to remain private.
